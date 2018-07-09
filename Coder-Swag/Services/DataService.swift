@@ -48,7 +48,7 @@ class DataService {
         case "SHIRTS": return getShirts()
         case "HATS": return getHats()
         case "HOODIES": return getHoodies()
-        case "DIGITAL GOODS": return getDigitalGoods()
+        case "DIGITAL": return getDigitalGoods()
         default: return getShirts()
         }
     }
@@ -65,5 +65,4 @@ class DataService {
     func getDigitalGoods() -> [Product] {
         return digitalGoods
     }
-    
 }
